@@ -1,0 +1,10 @@
+List of communities to list
+Reddit:
+  /r/lisp
+  /r/common_lisp
+  /r/learnlisp
+IRC:
+  #commonlisp @ libera
+  #clschool @ libera
+Matrix:
+  #commonlisp:matrix.org

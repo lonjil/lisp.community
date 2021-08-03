@@ -22,3 +22,7 @@ Lisp: <https://discord.gg/wQMQd27Ztu>
 ## Matrix:
 
 \#commonlisp:matrix.org  
+
+## Mailing lists:
+
+<https://mailman.common-lisp.net/listinfo> has lists for many different libraries and projects. In particular, the "pro" mailing list is somewhat active.

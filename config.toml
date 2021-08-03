@@ -2,4 +2,6 @@ baseURL = "https://lisp.community"
 languageCode = "en-us"
 title = "Listing of Lisp communities on the web"
 
+enableEmoji = true
+
 disableKinds = ["taxonomy", "taxonomyTerm"]

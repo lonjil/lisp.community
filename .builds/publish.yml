@@ -1,10 +1,13 @@
 image: alpine/latest
 oauth: pages.sr.ht/PAGES:RW
+packages:
+  - hugo
 environment:
   site: lisp.community
 tasks:
 - package: |
     cd $site
-    tar -C src -cvz . > ../site.tar.gz
+    hugo
+    tar -C public -cvz . > ../site.tar.gz
 - upload: |
     acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

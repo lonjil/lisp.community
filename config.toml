@@ -1,0 +1,5 @@
+baseURL = "https://lisp.community"
+languageCode = "en-us"
+title = "Listing of Lisp communities on the web"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
